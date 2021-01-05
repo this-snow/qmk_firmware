@@ -51,10 +51,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_LAYERS
 #define RGBLIGHT_LAYERS_OVERRIDE_RGB_OFF
 
-// Sleep
-//#define LED_DISABLE_WHEN_USB_SUSPENDED true
-//#define RGB_DISABLE_WHEN_USB_SUSPENDED true
-#define RGBLIGHT_SLEEP 
+// Sleep - not working with vUSB
+//#define RGBLIGHT_SLEEP 
 
 // RGB Settings  
 #define RGB_DI_PIN C1
